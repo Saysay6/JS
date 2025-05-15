@@ -116,7 +116,7 @@ console.log(g != i);
  const checkAyo = fee && textbooks;
  const checkAyoAgain = (fee && idCard) || (fee && uniform);
  console.log(checkAyoAgain);
- console.log("idCard", !idCard);
+ console.log("idCard", ! idCard);
 
  // //Unary Operator
  // // Increment ++
@@ -156,4 +156,58 @@ console.log(g != i);
 //    alert("Invalid")
 // }
 
+           //  Function declaration
+function greet(name,age,gender){
+  console.log('Hello,world',name,age,gender)
+}
+greet('Shade',20,'female')
+
+          // Function expression
+// function takeInputFromUser (){
+//   let userResponse = prompt('Enter any number')
+//   console.log(userResponse)
+// }
+// takeInputFromUser()
+
+function subNum(a,b){
+  console.log(a-b)
+}
+subNum(10,5)
+
+// 1.Take a number from a user and check if the number is greater than 6
+// function pickNum(){
+//   let response = parseInt(prompt('Enter number'))
+//   if(response > 6){
+//     console.log('number is greater than  6 ')
+// }else{
+//   console.log('number is less than 6')
+// }
+// }
+// pickNum()
+
+// 2.write a program to check the lenght of a name.
+// let name = function (){}
+// function name(){
+//   let result = prompt('Enter your name')
+//   console.log(' your name is',result.length ,' long')
+// // console.log('your name is' + result.length +'long')
+// }
+// name()
+
+// 3. Create a function that takes four parameter and return the highest number
+// function highestNum (){
+//   let a = parseInt(prompt('Enter number'))
+//   let b = parseInt(prompt('Enter number'))
+//   let c = parseInt(prompt('Enter number'))
+//   let d = parseInt(prompt('Enter number'))
+//   console.log(Math.max(a,b,c,d))
+// }
+// highestNum()
+            //  Arrow functions
+// () => {}
+  let checkCharacter = () => {
+    let answer = prompt('Enter your name')
+    console.log('Your name is',answer.length,'long')
+  }
+  checkCharacter()
 
