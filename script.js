@@ -14,14 +14,14 @@ console.log(age);
 
 //Primitive data types
 //string ' ' ""
-//let kezia ="today is kezia's birthday"
+let kezia ="today is kezia's birthday"
 
 // // Number
-//let myNum = 63;
+let myNum = 63;
 
 // //Boolean
-// const me = true;
-// const you = false;
+const me = true;
+const you = false;
 
 // //Undefined
 let test;
@@ -42,12 +42,12 @@ const student ={
 console.log(student)
 
 // // arrays
-const myArray = ["Phyna", "James", 354,true, { name:"John"}, [2,4,6]];
-console.log(myArray[2]);
+const myArray = ["Phyna", "James", 354,true, {name:"John"}, [2,4,6],"Raphael"];
+console.log(myArray[6]);
 
 // // functions
 
-//Arithmetic operator
+// Arithmetic operator
 let a = 34;
 let b = 56;
 
@@ -72,13 +72,13 @@ console.log(modul);
 // // + -
 
 // Comparism Operators
-const d = "Jane";
-const e = "Jane";
+const d = "Christy";
+const e = "Christy";
 const f = "Mary";
-const g =23;
+const g = 12;
 const h = 47;
-const i = 23;
-const j = "23"
+const i = 12;
+const j = "12"
 
 //Equals to
 console.log(d == e);
@@ -139,6 +139,21 @@ console.log(g != i);
   let voting = Age < 18 ? "You cannot vote" : "You can vote";
   console.log(voting)
 
-
+// 6. Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
+// solution
+// let secretNumber = 25;
+// let guess =parseInt(prompt("Guess a number between 1 and 30:" ));
+// if(guess === secretNumber){
+//    alert("Correct");
+// }
+// else if (guess > secretNumber){
+//    alert("Too high");
+// }
+// else if (guess < secretNumber) {
+//    alert("Too low");
+// }
+// else{
+//    alert("Invalid")
+// }
 
 
