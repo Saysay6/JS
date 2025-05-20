@@ -205,9 +205,29 @@ subNum(10,5)
 // highestNum()
             //  Arrow functions
 // () => {}
-  let checkCharacter = () => {
-    let answer = prompt('Enter your name')
-    console.log('Your name is',answer.length,'long')
+  // let checkCharacter = () => {
+  //   let answer = prompt('Enter your name')
+  //   console.log('Your name is',answer.length,'long')
+  // }
+  // checkCharacter()
+
+  // 4.Write an arrow function that divides two numbers.
+  let num = (d,b) => {
+    console.log(d/b)
   }
-  checkCharacter()
+  num(6,2)
+
+  // 5.Write a function that checks if a number is even or odd.
+  function evenNum(){
+    let eveNum = parseInt(prompt("Enter any number"))
+    if(eveNum % 2 === 0){
+      console.log('This is an even number')
+    }else{
+     console.log('This is an odd number')
+    }
+  }
+  evenNum()
+
+  // 5.Write a function that reverses a string.
+  // 6.Write a function that returns  the longest word in a sentence.
 
