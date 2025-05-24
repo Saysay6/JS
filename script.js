@@ -218,16 +218,33 @@ subNum(10,5)
   num(6,2)
 
   // 5.Write a function that checks if a number is even or odd.
-  function evenNum(){
-    let eveNum = parseInt(prompt("Enter any number"))
-    if(eveNum % 2 === 0){
-      console.log('This is an even number')
-    }else{
-     console.log('This is an odd number')
-    }
-  }
-  evenNum()
+  // function evenNum(){
+  //   let eveNum = parseInt(prompt("Enter any number"))
+  //   if(eveNum % 2 === 0){
+  //     console.log('This is an even number')
+  //   }else{
+  //    console.log('This is an odd number')
+  //   }
+  // }
+  // evenNum()
 
   // 5.Write a function that reverses a string.
+  // Uses three js methods:;split(""),reverse(),join("")
+  let string = "phyna";
+let revString = string.split('').reverse().join('');
+console.log(revString);
   // 6.Write a function that returns  the longest word in a sentence.
 
+// Loops
+// for(let i = 0; i < 10; i++){
+//    console.log('This is the value of i',i)
+// }
+// console.log('We are learning loop')
+
+for(let startingIndex = 1; startingIndex < 50; startingIndex +=2){
+   if(startingIndex % 2 === 0){
+      console.log(startingIndex,"is an even number")
+   }else{
+      console.log(startingIndex,"is an odd number")
+   }
+  }
